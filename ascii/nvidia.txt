@@ -1,0 +1,19 @@
+${c1}               ;XMMMMMMMMMMMMMMMMMMMMM0'
+             ..:xkO0XWMMMMMMMMMMMMMMMM0'
+        .,lddddo:::;,,cd0XNMMMMMMMMMMM0'
+     .:xOxl,'''cdkkOOxc...,oKWMMMMMMMM0'
+   ;xXKo'.,oxxdo;. .,l0Kdc' .cKMMMMMMM0'
+  .OMWo .oNKc. ;KXo. ,OWXO:  ,OMMMMMMM0'
+   ,0MK: ,0No. ;XMW0ONKo. .;xNNOdONMMM0'
+    .xNXo..oKOclOKKOd:',ldONKd,   'dNM0'
+      ,kX0l'':oollccldOK0kd;.   .:d0WM0'
+        'lk0koccdxxdol;'...';lx0NMMMMM0'
+           .;col:::clodkO0KNWMMMMMMMMM0'
+               'OXKXXXXKKKKKKKKKKKKKKKx.
+                .......................
+
+${c2}0OOkOOd,.o0l  .lO:.l0:.l0Okxkkd; 'xk'   cOOO:
+MKc',dNK;:NX; :XK,.kMl.kMWx''lXN:;KX;  :XOoKK;
+M0'  ,KN:.dWx,kNl .kMl.kMWo  .OMo;KX; '0Nl.dWO'
+M0'  '0N: '0NKNk. .kMl.kMWOcckNK,;KN:.kNOold0Wx.
+Kx.  .x0,  lKK0;  .dK:.oKKKKK0x, 'kO,;0x.   ,OO:

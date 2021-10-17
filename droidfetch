@@ -1,0 +1,148 @@
+#!/bin/bash
+ascii_location="$HOME/.config/droidfetch/ascii"
+check_neofetch(){
+    if $(neofetch > /dev/null 2>&1); then
+        :
+    else
+        echo "Please install neofetch first!"
+        exit
+    fi
+
+}
+show_ascii(){
+    neofetch --ascii $ascii_location/${1}.txt --ascii_colors ${2}
+}
+get_oem_test(){
+    if $(cat ~/oeminfo.txt > /dev/null 2>&1); then
+        oem=$(cat ~/oeminfo.txt)
+    else
+        oem='Android'
+    fi
+}
+get_oem(){
+    #Common phones
+    if $(getprop ro.product.brand > /dev/null 2>&1); then
+        oem=$(getprop ro.product.brand)
+    #For blackshark
+    elif $(getprop ro.product.product.brand > /dev/null 2>&1); then
+        oem=$(getprop ro.product.product.brand)
+    #For Realme
+    elif $(getprop ro.product.manufacturer > /dev/null 2>&1); then
+        oem=$(getprop ro.product.manufacturer)
+    #For iQOO, ASUS and Pocophone
+    elif $(getprop ro.product.system.brand > /dev/null 2>&1); then
+        oem=$(getprop ro.product.system.brand)
+        if echo $oem | grep 'asus'>/dev/null 2>&1; then
+            case $(getprop ro.build.product) in
+                ZS676KS)
+                    oem="rog";;
+                ZS673KS)
+                    oem="rog";;
+                ZS661KS)
+                    oem="rog";;
+                ZS660KL)
+                    oem="rog";;
+                ZS600KL)
+                    oem="rog";;
+                *)
+                    oem="asus";;
+            esac
+        fi
+    #for Nokia or some phone with Unknown product brand
+    elif $(getprop ro.product.system.model > /dev/null 2>&1); then
+        oem=$(getprop ro.product.system.model)
+        if echo $oem | grep 'Nokia'>/dev/null 2>&1; then
+            oem='Nokia'
+        else
+            oem='Android'
+        fi
+    else
+        oem='Android'
+    fi
+}
+show_oem() {
+    case $oem in
+        Xiaomi)
+            show_ascii xiaomi 208;;
+        xiaomi)
+            show_ascii xiaomi 208;;
+        Oneplus)
+            show_ascii oneplus 196;;
+        oneplus)
+            show_ascii oneplus 196;;
+        HUAWEI)
+            show_ascii huawei '196 255';;
+        Huawei)
+            show_ascii huawei '196 255';;
+        OPPO)
+            show_ascii oppo 34;;
+        vivo)
+            show_ascii vivo 57;;
+        Google)
+            show_ascii google '196 226 46 27';;
+        htc)
+            show_ascii htc 84;;
+        samsung)
+            show_ascii samsung 57;;
+        Samsung)
+            show_ascii samsung 57;;
+        Sony)
+            show_ascii sony '255 251 247 243 240';;
+        motorola)
+            show_ascii motorola 75;;
+        Motorola)
+            show_ascii motorola 75;;
+        lge)
+            show_ascii lg 196;;
+        SMARTISAN)
+            show_ascii smartisan 196;;
+        nubia)
+            show_ascii nubia 196;;
+        blackberry)
+            show_ascii blackberry 253;;
+        asus)
+            show_ascii asus 69;;
+        rog)
+            show_ascii rog '196 252';;
+        Nokia)
+            show_ascii nokia 27;;
+        LeEco)
+            show_ascii letv '45 67 72 120 196';;
+        SHARP)
+            show_ascii sharp 196;;
+        razer)
+            show_ascii razer '46 47 48 49 50 51';;
+        GiONEE)
+            show_ascii gionee 220;;
+        Lenovo)
+            show_ascii lenovo 196;;
+        Realme)
+            show_ascii realme 214;;
+        iQOO)
+            show_ascii iqoo 214;;
+        Meitu)
+            show_ascii meitu '162 163 164';;
+        qti)
+            show_ascii poco 214;;
+        NVIDIA)
+            show_ascii nvidia '40 255';;
+        Amazon)
+            show_ascii amazon '252 178';;
+        essential)
+            show_ascii essential '252';;
+        TCL)
+            show_ascii tcl 196;;
+        Rockchip)
+            show_ascii rockchip '57 208';;
+        Teclast)
+            show_ascii teclast 208;;
+        Apple)
+            show_ascii apple '252 40';;
+        Gree)
+            show_ascii lady_dong '223 183 252 75 238';;
+        *)
+            neofetch;;
+    esac
+}
+get_oem
+show_oem

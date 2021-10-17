@@ -1,0 +1,15 @@
+${c1}
+
+        .;:::::::::::::::::::::::::::::.
+      ,kNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNc
+     ,KMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNc
+     :NMMMKOOOOOk0NNOddodONMXO0NMMMMMMNc
+     :NMMWx,.  .'cd;.,cc;.;0o .OMMMMMMNc
+     :NMMMWNk. cXWo .OMMXocOl .OMWMMMMNc
+     :NMMMMM0' lWM0;.,cc;.,Oo .';;xWMMNc
+     :NMMMMMN0OXMMMNOxdodkXMXOOOkOKMMMNc
+     :NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNc
+     :NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNc
+     .:c:ccccccccccccccccccccccccccc:c:.
+
+

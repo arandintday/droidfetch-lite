@@ -1,0 +1,16 @@
+${c1}             .......
+        .:ok0KXXXXXKOxl;.
+     .ckNMMMMMMMMMMMMMMWKo.
+   .c0WMMMMMNKOOOO0XWMMWO:.
+${c2}  .xWMM${c1}MMNkc'.     .,ox:.
+${c2} .xWMMMWO,
+${c2} cNMMMMk.       ${c4}..''''''''''''.
+${c2}.xMMMMX;       ${c4},kKWNWWWWWWWWNNd.
+${c2}.kMMMMK,       ${c4};OXMMMMMMMMMMMMk.
+${c2} oMMM${c3}MNl       ${c4}.cdkxxkxxKWMMMMx.
+${c3} ,KMMMMXc              ${c4}.xWMMMN:
+${c3}  :XMMMMNx;.         ${c4}.;OWMMMWd.
+${c3}   ,OWMMMMW0dl::;::lx0WMM${c4}MMNo.
+${c3}    .c0WMMMMMMMMMMMMMMMMMNk;
+${c3}      .;oOXWMMMMMMMMMWXOo,
+${c3}          .,:loooolc:,.

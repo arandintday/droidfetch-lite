@@ -1,0 +1,21 @@
+${c2}                 ..'',,,''..
+            .;codxkOOOOOOOOxdoc;.
+         .:okOOkxdlc::::clddxkOOkd:.
+       .lkOOOOxc,''.......'';cdkOOOkl.
+     .ckOOOOOkl'.'.......'''.',cdkOOOkc.
+    .dOOkOOOkl,'................;xOOOOOd.
+   .dOOkkOOOl',${c1}ldxxdl${c2},...........lOOOOOOd.
+  .lOOOOOOOk:'${c1}dKKXXXKo${c2};'........'dOOOOOOOo.
+  ,kOOOOOOOOl:${c1}x0KKXK0Oko${c2}'...   .,xOOOOOOOk,
+  cOOOOOOOOOd${c1}ox${c5}dx${c1}0KOd${c5}oo${c1}dd${c2}:'....'lkOOOOOOOOc
+  l0OOOOOOOOk${c1}O000KKK0OO000xc${c2};;;,oOOOOOOOO0l
+  cOOOOOOOOOO0${c1}KXKK00KKXKKOkdol${c2},.lOOOOOOOOOc
+  ,kOOOOOOOOOO0${c1}K00OO00K00Okxxd${c2}ccdOOOOOOkOk,
+  .lOOOOOOOOOO0K${c1}0OkkkO00OOkk${c2}kOOOOOOOOOOOOl.
+   .dOOOOOOOOOO0K${c1}K000Okkkkx${c2}kOOOOOOOOOOOOd.
+    .dOOkOOO0KX0${c3}0${c1}K0Okxxxxx${c3}xxOO${c2}OOOOOOOOOd.
+     .cOKXX${c3}XNWWKKK${c1}KOkkkkk${c3}xdlxKKKK0${c2}0OOkc.
+       '${c3}dKWWWWW${c4}XOO0OOOOkkxdcdX${c3}NNNNN0${c2}o'
+         ${c3}.ckXWWNK${c4}Odloooolllo${c3}ON$NNKkc.
+            ${c3}.:ok$00dl${c4}llll${c3}lclxOxo:.
+                .....'''.....

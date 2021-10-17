@@ -1,0 +1,15 @@
+${c1}                       ...:ooc.
+${c1}           ..'.      'xOOXWk,.
+${c1}          :OKKKxl'   lWOcod'
+${c2}         :XKoxXMM0;  .dXO;
+${c2}.lo:;c; .OXlxxxWWNXd. ,lOXx'
+${c2} .lkKWO,dNo.';xWWKXWkllxdoXK;
+${c3}    ,kKKKo. .lKXXNMNKX00KxKNc
+${c3}     .',.   lNNKKXX0O00kOOx:
+${c4}           cXMXkdxc...
+${c4}          '0Nkdddxl;:::,.
+${c4}          .lKKOOOOOOkxOXd.
+${c5}            .',''.. 'o0Xo.
+${c5}                    'xN0'
+${c5}                     .Ok.
+${c6}                     .:,
