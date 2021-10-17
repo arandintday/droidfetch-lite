@@ -66,7 +66,7 @@ show_oem() {
             show_ascii xiaomi 208;;
         xiaomi)
             show_ascii xiaomi 208;;
-        Oneplus)
+        OnePlus)
             show_ascii oneplus 196;;
         oneplus)
             show_ascii oneplus 196;;
