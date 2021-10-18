@@ -74,6 +74,8 @@ show_oem() {
             show_ascii huawei '196 255';;
         Huawei)
             show_ascii huawei '196 255';;
+        HONOR)
+            show_ascii honor '129 69 81';;
         OPPO)
             show_ascii oppo 34;;
         vivo)
@@ -104,6 +106,8 @@ show_oem() {
             show_ascii asus 69;;
         rog)
             show_ascii rog '196 252';;
+        blackshark)
+            show_ascii blackshark 34;;
         Nokia)
             show_ascii nokia 27;;
         LeEco)
@@ -138,7 +142,7 @@ show_oem() {
             show_ascii teclast 208;;
         Apple)
             show_ascii apple '252 40';;
-        Gree)
+        GREE)
             show_ascii lady_dong '223 183 252 75 238';;
         *)
             neofetch;;
