@@ -148,5 +148,7 @@ show_oem() {
             neofetch;;
     esac
 }
+
+check_neofetch
 get_oem
 show_oem
