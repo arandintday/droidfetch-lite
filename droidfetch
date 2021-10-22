@@ -12,6 +12,9 @@ check_neofetch(){
 show_ascii(){
     neofetch --ascii $ascii_location/${1}.txt --ascii_colors ${2}
 }
+get_rom(){
+    $prop=$(getprop)
+}
 get_oem_test(){
     if $(cat ~/oeminfo.txt > /dev/null 2>&1); then
         oem=$(cat ~/oeminfo.txt)
@@ -144,6 +147,10 @@ show_oem() {
             show_ascii apple '252 40';;
         GREE)
             show_ascii lady_dong '223 183 252 75 238';;
+        Windows)
+            show_ascii wsa '75';;
+        Microsoft)
+            show_ascii microsoft '196 46 27 226';;
         *)
             neofetch;;
     esac
